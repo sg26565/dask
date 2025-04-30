@@ -1,0 +1,21 @@
+[project]
+name = "csv2parquet"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Oliver Treichel",email = "oliver.treichel@gmx.de"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "dask[complete] (>=2025.2.0,<2026.0.0)",
+    "graphviz (>=0.20.3,<0.21.0)",
+    "dask-kubernetes[helm] (>=2025.1.1,<2026.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
