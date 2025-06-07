@@ -4,9 +4,8 @@ optimizing for memory efficiency.
 """
 
 import dask.dataframe as dd
-from dask.distributed import Client
 
-def convert_csv_to_parquet(in_path: str, out_path: str, dtypes: dict, bs: str = "100MB") -> None:
+def convert_csv_to_parquet(in_path: str, out_path: str, dtypes: dict[str, str], bs: str = "100MB") -> None:
     """
     Convert a large CSV file to a Parquet file using Dask, handling large files efficiently.
 
