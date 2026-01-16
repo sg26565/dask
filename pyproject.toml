@@ -8,7 +8,7 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.13,<4.0"
 dependencies = [
-    "dask[complete] (>=2025.2.0,<2026.0.0)",
+    "dask[complete] (>=2026.1.1,<2026.2.0)",
     "graphviz (>=0.21,<0.22.0)",
     "dask-kubernetes[helm] (>=2025.1.1,<2026.0.0)"
 ]
