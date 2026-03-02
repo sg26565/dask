@@ -358,7 +358,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "dask", extras = ["complete"], specifier = ">=2026.1.1,<2026.2.0" },
-    { name = "dask-kubernetes", extras = ["helm"], specifier = ">=2025.1.1,<2026.0.0" },
+    { name = "dask-kubernetes", extras = ["helm"], specifier = ">=2026.3.0,<2026.4.0" },
     { name = "graphviz", specifier = ">=0.21,<0.22.0" },
 ]
 
@@ -393,7 +393,7 @@ complete = [
 
 [[package]]
 name = "dask-kubernetes"
-version = "2025.4.3"
+version = "2026.3.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "dask" },
@@ -405,9 +405,9 @@ dependencies = [
     { name = "pykube-ng" },
     { name = "rich" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f6/2e/d521e301a43251e91f8f4305df938f584f12788dd3f578934619c17d8ced/dask_kubernetes-2025.4.3.tar.gz", hash = "sha256:5da98aa2565df3b3348f4df3871db8ff2b9511c6bad6aa789a974f6212a45516", size = 89646, upload-time = "2025-04-23T10:10:49.105Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/45/09/c76691669da4bffb5f26ed376d9e0cd2d04a548699439a01cf2941ba2d0b/dask_kubernetes-2026.3.0.tar.gz", hash = "sha256:a247ee5e34284c74d5db0d681cd8f668eb636f719b538b771d1b101ff9952232", size = 89709, upload-time = "2026-03-02T17:17:57.752Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b9/93/eb2b33604474145d7797c2c313485f2cf8249602787f89015001bef94872/dask_kubernetes-2025.4.3-py3-none-any.whl", hash = "sha256:70fa7ef7c4bb56dc92bbe48a178830d5b088b5a38b84df7f76bebb491c761b69", size = 141161, upload-time = "2025-04-23T10:10:47.421Z" },
+    { url = "https://files.pythonhosted.org/packages/b7/62/96a769a9fe44b7e5526558f9d8b2d516feac0cdca6eb5a9282c7b31bac24/dask_kubernetes-2026.3.0-py3-none-any.whl", hash = "sha256:5cf138e03cb1851063b82b74e9fd4679251238e3867fcae1e3682aada6410728", size = 141252, upload-time = "2026-03-02T17:17:56.355Z" },
 ]
 
 [[package]]
