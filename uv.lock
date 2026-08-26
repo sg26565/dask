@@ -420,14 +420,14 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "dask", extras = ["complete"], specifier = ">=2026.7.0,<2026.8.0" },
+    { name = "dask", extras = ["complete"], specifier = ">=2026.8.0,<2026.9.0" },
     { name = "dask-kubernetes", extras = ["helm"], specifier = ">=2026.3.0,<2026.4.0" },
     { name = "graphviz", specifier = ">=0.21,<0.22.0" },
 ]
 
 [[package]]
 name = "dask"
-version = "2026.7.0"
+version = "2026.8.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -438,9 +438,9 @@ dependencies = [
     { name = "pyyaml" },
     { name = "toolz" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/4d/b5/aa50877159f1efd65a744107e0662a15d2b80fa0c427d980313367f49493/dask-2026.7.0.tar.gz", hash = "sha256:b039970642ce97a063070bae2763dada8aae27e3cbd8ff6d894072f920a1e252", size = 11548914, upload-time = "2026-07-06T16:58:36.496Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/33/a7/6b3c7ac32b642fbbe0821111654e0bd8cfbe88f68560bcf23cc78ab35c71/dask-2026.8.0.tar.gz", hash = "sha256:8a94c37b5de6d869343340dc26c3c3acca7ec48a3abdabe00ea3abb1125884d5", size = 11561752, upload-time = "2026-08-24T19:21:25.906Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/90/aa/ceeb81d9dc886d445416310f0eff5c3978f20224b4143e96e36b7e85b011/dask-2026.7.0-py3-none-any.whl", hash = "sha256:68def8b467529ab8425ef9fcc6735dcaefaaf715d5e19ae219485f99a394dbef", size = 1496878, upload-time = "2026-07-06T16:58:34.597Z" },
+    { url = "https://files.pythonhosted.org/packages/f8/3a/4fc99e788bcfa1b3b3f21abf57da45898d807d007e7f6fd1c7300904eb70/dask-2026.8.0-py3-none-any.whl", hash = "sha256:ccc0c83a189b0398602435189771d28dad7b5773b6089bb8dce14ae732dd782c", size = 1492182, upload-time = "2026-08-24T19:21:23.997Z" },
 ]
 
 [package.optional-dependencies]
@@ -475,7 +475,7 @@ wheels = [
 
 [[package]]
 name = "distributed"
-version = "2026.7.0"
+version = "2026.8.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -493,9 +493,9 @@ dependencies = [
     { name = "tornado" },
     { name = "zict" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/89/33/210aaca1f7ce3fadec1143dd01edc993b1c32eb52b4a7dd0d8317ce119e6/distributed-2026.7.0.tar.gz", hash = "sha256:3b9ecc6c9d1a9ad64e6b5ba6ec3e35c28efcda6f04fa105074179ad79f45c8b9", size = 2461154, upload-time = "2026-07-06T17:01:01.928Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ff/18/1c98f0a36eccfcce109f054456f38767ac5d4b3fac124dcd5a35b1cd6167/distributed-2026.8.0.tar.gz", hash = "sha256:6f55008ecacf96ba945309fc12e680544764995e27bd63cc5e109afb97d7044d", size = 2465942, upload-time = "2026-08-24T19:36:00.554Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2b/89/9fedd4ba73034d8101c9095731aab75e08dae09178a6955100299af0f20f/distributed-2026.7.0-py3-none-any.whl", hash = "sha256:792e684c27dfc51f8fdc8e28a7ba895b0d6c86bd9bc7eeca5f7a485f6d9aecf6", size = 1011990, upload-time = "2026-07-06T17:01:00.046Z" },
+    { url = "https://files.pythonhosted.org/packages/28/d4/017e2d39d797eaa38a52b4459c8bea875d5e0ada335a62aafe98193041a6/distributed-2026.8.0-py3-none-any.whl", hash = "sha256:3bd8882861a2cf497453f28c6b61135fa8ef2bb1d6885ad3b9f27e887e9c0e01", size = 1008640, upload-time = "2026-08-24T19:35:58.622Z" },
 ]
 
 [[package]]
